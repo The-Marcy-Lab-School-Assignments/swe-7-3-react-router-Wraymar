@@ -1,0 +1,504 @@
+{
+  "robots": [
+    {
+      "id": 1,
+      "name": "Grayven",
+      "bot_class": "Assault",
+      "catchphrase": "010101101100000",
+      "health": 16,
+      "damage": 71,
+      "armor": 20,
+      "avatar_url": "https://robohash.org/Grayven.png"
+    },
+    {
+      "id": 2,
+      "name": "Scorch",
+      "bot_class": "Support",
+      "catchphrase": "010010110100011",
+      "health": 74,
+      "damage": 88,
+      "armor": 99,
+      "avatar_url": "https://robohash.org/Scorch.png"
+    },
+    {
+      "id": 3,
+      "name": "Death Storm",
+      "bot_class": "Assault",
+      "catchphrase": "011000111010001",
+      "health": 68,
+      "damage": 67,
+      "armor": 76,
+      "avatar_url": "https://robohash.org/Death_Storm.png"
+    },
+    {
+      "id": 4,
+      "name": "Sebastian Shaw",
+      "bot_class": "Defender",
+      "catchphrase": "111011000011001",
+      "health": 50,
+      "damage": 86,
+      "armor": 27,
+      "avatar_url": "https://robohash.org/Sebastian_Shaw.png"
+    },
+    {
+      "id": 5,
+      "name": "Hellgrammite",
+      "bot_class": "Defender",
+      "catchphrase": "100101001011011",
+      "health": 71,
+      "damage": 57,
+      "armor": 72,
+      "avatar_url": "https://robohash.org/Hellgrammite.png"
+    },
+    {
+      "id": 6,
+      "name": "Madame Masque",
+      "bot_class": "Assault",
+      "catchphrase": "111011010000110",
+      "health": 72,
+      "damage": 99,
+      "armor": 42,
+      "avatar_url": "https://robohash.org/Madame_Masque.png"
+    },
+    {
+      "id": 7,
+      "name": "Copperhead",
+      "bot_class": "Support",
+      "catchphrase": "101110110110111",
+      "health": 13,
+      "damage": 32,
+      "armor": 20,
+      "avatar_url": "https://robohash.org/Copperhead.png"
+    },
+    {
+      "id": 8,
+      "name": "The Rowdyruff Boys",
+      "bot_class": "Assault",
+      "catchphrase": "101000111001100",
+      "health": 35,
+      "damage": 82,
+      "armor": 21,
+      "avatar_url": "https://robohash.org/The_Rowdyruff_Boys.png"
+    },
+    {
+      "id": 9,
+      "name": "Blue Streak",
+      "bot_class": "Assault",
+      "catchphrase": "000010001110100",
+      "health": 44,
+      "damage": 15,
+      "armor": 60,
+      "avatar_url": "https://robohash.org/Blue_Streak.png"
+    },
+    {
+      "id": 10,
+      "name": "Marrow",
+      "bot_class": "Support",
+      "catchphrase": "000011010001000",
+      "health": 92,
+      "damage": 93,
+      "armor": 53,
+      "avatar_url": "https://robohash.org/Marrow.png"
+    },
+    {
+      "id": 11,
+      "name": "Halflife",
+      "bot_class": "Defender",
+      "catchphrase": "010001100010010",
+      "health": 62,
+      "damage": 13,
+      "armor": 20,
+      "avatar_url": "https://robohash.org/Halflife.png"
+    },
+    {
+      "id": 12,
+      "name": "Lynx",
+      "bot_class": "Support",
+      "catchphrase": "011010000110010",
+      "health": 14,
+      "damage": 87,
+      "armor": 85,
+      "avatar_url": "https://robohash.org/Lynx.png"
+    },
+    {
+      "id": 13,
+      "name": "Warmaker",
+      "bot_class": "Assault",
+      "catchphrase": "101010100010010",
+      "health": 96,
+      "damage": 82,
+      "armor": 86,
+      "avatar_url": "https://robohash.org/Warmaker.png"
+    },
+    {
+      "id": 14,
+      "name": "The Shade",
+      "bot_class": "Assault",
+      "catchphrase": "011011110100111",
+      "health": 44,
+      "damage": 12,
+      "armor": 64,
+      "avatar_url": "https://robohash.org/The_Shade.png"
+    },
+    {
+      "id": 15,
+      "name": "Quicksand",
+      "bot_class": "Defender",
+      "catchphrase": "110011000101010",
+      "health": 87,
+      "damage": 16,
+      "armor": 65,
+      "avatar_url": "https://robohash.org/Quicksand.png"
+    },
+    {
+      "id": 16,
+      "name": "Axis Amerika",
+      "bot_class": "Assault",
+      "catchphrase": "100100111111000",
+      "health": 13,
+      "damage": 50,
+      "armor": 76,
+      "avatar_url": "https://robohash.org/Axis_Amerika.png"
+    },
+    {
+      "id": 17,
+      "name": "General",
+      "bot_class": "Assault",
+      "catchphrase": "100000110100111",
+      "health": 14,
+      "damage": 60,
+      "armor": 74,
+      "avatar_url": "https://robohash.org/General.png"
+    },
+    {
+      "id": 18,
+      "name": "Rainbow Raider",
+      "bot_class": "Assault",
+      "catchphrase": "010001100100011",
+      "health": 23,
+      "damage": 25,
+      "armor": 14,
+      "avatar_url": "https://robohash.org/Rainbow_Raider.png"
+    },
+    {
+      "id": 19,
+      "name": "Ion",
+      "bot_class": "Support",
+      "catchphrase": "000010101011011",
+      "health": 35,
+      "damage": 72,
+      "armor": 17,
+      "avatar_url": "https://robohash.org/Ion.png"
+    },
+    {
+      "id": 20,
+      "name": "Chessure",
+      "bot_class": "Assault",
+      "catchphrase": "010110111011011",
+      "health": 49,
+      "damage": 99,
+      "armor": 53,
+      "avatar_url": "https://robohash.org/Chessure.png"
+    },
+    {
+      "id": 21,
+      "name": "Kraven the Hunter",
+      "bot_class": "Assault",
+      "catchphrase": "110001111000000",
+      "health": 19,
+      "damage": 19,
+      "armor": 75,
+      "avatar_url": "https://robohash.org/Kraven_the_Hunter.png"
+    },
+    {
+      "id": 22,
+      "name": "Owen Mercer",
+      "bot_class": "Defender",
+      "catchphrase": "110101001110111",
+      "health": 23,
+      "damage": 64,
+      "armor": 72,
+      "avatar_url": "https://robohash.org/Owen_Mercer.png"
+    },
+    {
+      "id": 23,
+      "name": "Black Knight",
+      "bot_class": "Assault",
+      "catchphrase": "000110001001100",
+      "health": 54,
+      "damage": 37,
+      "armor": 17,
+      "avatar_url": "https://robohash.org/Black_Knight.png"
+    },
+    {
+      "id": 24,
+      "name": "Brainiac",
+      "bot_class": "Support",
+      "catchphrase": "011001010100011",
+      "health": 36,
+      "damage": 82,
+      "armor": 52,
+      "avatar_url": "https://robohash.org/Brainiac.png"
+    },
+    {
+      "id": 25,
+      "name": "Doomsday",
+      "bot_class": "Assault",
+      "catchphrase": "110001110010010",
+      "health": 48,
+      "damage": 36,
+      "armor": 59,
+      "avatar_url": "https://robohash.org/Doomsday.png"
+    },
+    {
+      "id": 26,
+      "name": "NKVDemon",
+      "bot_class": "Assault",
+      "catchphrase": "000111110001011",
+      "health": 56,
+      "damage": 40,
+      "armor": 46,
+      "avatar_url": "https://robohash.org/NKVDemon.png"
+    },
+    {
+      "id": 27,
+      "name": "Aries",
+      "bot_class": "Support",
+      "catchphrase": "001100010110100",
+      "health": 83,
+      "damage": 29,
+      "armor": 93,
+      "avatar_url": "https://robohash.org/Aries.png"
+    },
+    {
+      "id": 28,
+      "name": "Hyperion",
+      "bot_class": "Assault",
+      "catchphrase": "011100100111100",
+      "health": 50,
+      "damage": 23,
+      "armor": 43,
+      "avatar_url": "https://robohash.org/Hyperion.png"
+    },
+    {
+      "id": 29,
+      "name": "Lion-Mane",
+      "bot_class": "Defender",
+      "catchphrase": "111111011111001",
+      "health": 71,
+      "damage": 85,
+      "armor": 96,
+      "avatar_url": "https://robohash.org/Lion-Mane.png"
+    },
+    {
+      "id": 30,
+      "name": "Ion 2",
+      "bot_class": "Assault",
+      "catchphrase": "101001101101101",
+      "health": 62,
+      "damage": 29,
+      "armor": 46,
+      "avatar_url": "https://robohash.org/Ion.png"
+    },
+    {
+      "id": 31,
+      "name": "Jason Kreis",
+      "bot_class": "Defender",
+      "catchphrase": "100000000010100",
+      "health": 82,
+      "damage": 88,
+      "armor": 76,
+      "avatar_url": "https://robohash.org/Jason_Kreis.png"
+    },
+    {
+      "id": 32,
+      "name": "Fin Fang Foom",
+      "bot_class": "Assault",
+      "catchphrase": "000101101100010",
+      "health": 79,
+      "damage": 49,
+      "armor": 16,
+      "avatar_url": "https://robohash.org/Fin_Fang_Foom.png"
+    },
+    {
+      "id": 33,
+      "name": "Parasite",
+      "bot_class": "Assault",
+      "catchphrase": "001000110111001",
+      "health": 54,
+      "damage": 11,
+      "armor": 66,
+      "avatar_url": "https://robohash.org/Parasite.png"
+    },
+    {
+      "id": 34,
+      "name": "Eclipso",
+      "bot_class": "Support",
+      "catchphrase": "100110011111011",
+      "health": 99,
+      "damage": 21,
+      "armor": 74,
+      "avatar_url": "https://robohash.org/Eclipso.png"
+    },
+    {
+      "id": 35,
+      "name": "Zeiss",
+      "bot_class": "Assault",
+      "catchphrase": "010001111001111",
+      "health": 31,
+      "damage": 63,
+      "armor": 14,
+      "avatar_url": "https://robohash.org/Zeiss.png"
+    },
+    {
+      "id": 36,
+      "name": "Fabian Cortez",
+      "bot_class": "Defender",
+      "catchphrase": "101001110010011",
+      "health": 96,
+      "damage": 96,
+      "armor": 34,
+      "avatar_url": "https://robohash.org/Fabian_Cortez.png"
+    },
+    {
+      "id": 37,
+      "name": "Doctor Moon",
+      "bot_class": "Support",
+      "catchphrase": "001001111100010",
+      "health": 55,
+      "damage": 52,
+      "armor": 69,
+      "avatar_url": "https://robohash.org/Doctor_Moon.png"
+    },
+    {
+      "id": 38,
+      "name": "Killer Frost",
+      "bot_class": "Assault",
+      "catchphrase": "110000100110110",
+      "health": 37,
+      "damage": 56,
+      "armor": 31,
+      "avatar_url": "https://robohash.org/Killer_Frost.png"
+    },
+    {
+      "id": 39,
+      "name": "Snapdragon",
+      "bot_class": "Assault",
+      "catchphrase": "100111101011011",
+      "health": 74,
+      "damage": 54,
+      "armor": 96,
+      "avatar_url": "https://robohash.org/Snapdragon.png"
+    },
+    {
+      "id": 40,
+      "name": "Zoom",
+      "bot_class": "Defender",
+      "catchphrase": "011000111011011",
+      "health": 57,
+      "damage": 21,
+      "armor": 59,
+      "avatar_url": "https://robohash.org/Zoom.png"
+    },
+    {
+      "id": 41,
+      "name": "Master of the World",
+      "bot_class": "Support",
+      "catchphrase": "100100110100011",
+      "health": 97,
+      "damage": 56,
+      "armor": 21,
+      "avatar_url": "https://robohash.org/Master_of_the_World.png"
+    },
+    {
+      "id": 42,
+      "name": "Anthony Lupus",
+      "bot_class": "Assault",
+      "catchphrase": "101100101100111",
+      "health": 32,
+      "damage": 78,
+      "armor": 70,
+      "avatar_url": "https://robohash.org/Anthony_Lupus.png"
+    },
+    {
+      "id": 43,
+      "name": "Swordsman",
+      "bot_class": "Assault",
+      "catchphrase": "010010011010010",
+      "health": 62,
+      "damage": 66,
+      "armor": 36,
+      "avatar_url": "https://robohash.org/Swordsman.png"
+    },
+    {
+      "id": 44,
+      "name": "Doomsday 2",
+      "bot_class": "Assault",
+      "catchphrase": "000101011001100",
+      "health": 42,
+      "damage": 33,
+      "armor": 17,
+      "avatar_url": "https://robohash.org/Doomsday.png"
+    },
+    {
+      "id": 45,
+      "name": "Deacon Blackfire",
+      "bot_class": "Defender",
+      "catchphrase": "001100001110001",
+      "health": 85,
+      "damage": 99,
+      "armor": 76,
+      "avatar_url": "https://robohash.org/Deacon_Blackfire.png"
+    },
+    {
+      "id": 46,
+      "name": "Fabian Cortez 2",
+      "bot_class": "Defender",
+      "catchphrase": "000000000010101",
+      "health": 64,
+      "damage": 81,
+      "armor": 98,
+      "avatar_url": "https://robohash.org/Fabian_Cortez.png"
+    },
+    {
+      "id": 47,
+      "name": "HYDRA",
+      "bot_class": "Support",
+      "catchphrase": "000110111001111",
+      "health": 49,
+      "damage": 33,
+      "armor": 74,
+      "avatar_url": "https://robohash.org/HYDRA.png"
+    },
+    {
+      "id": 48,
+      "name": "Victor Zsasz",
+      "bot_class": "Defender",
+      "catchphrase": "101000101100110",
+      "health": 15,
+      "damage": 88,
+      "armor": 76,
+      "avatar_url": "https://robohash.org/Victor_Zsasz.png"
+    },
+    {
+      "id": 49,
+      "name": "Doctor Demonicus",
+      "bot_class": "Assault",
+      "catchphrase": "101000010001100",
+      "health": 61,
+      "damage": 12,
+      "armor": 97,
+      "avatar_url": "https://robohash.org/Doctor_Demonicus.png"
+    },
+    {
+      "id": 50,
+      "name": "Lady Death",
+      "bot_class": "Support",
+      "catchphrase": "101000111110000",
+      "health": 28,
+      "damage": 13,
+      "armor": 95,
+      "avatar_url": "https://robohash.org/Lady_Death.png"
+    }
+  ]
+}
