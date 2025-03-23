@@ -136,7 +136,7 @@ There are 18 tasks to complete and 1 bonus.
 Your goal is to meet at least 75% of these requirements to complete the assignment. But don't stop there! Shoot for 100%!
 
 **Functionality**
-- [ ] Navigating to `/` renders the `BotsPage`
+- [x] Navigating to `/` renders the `BotsPage`
 - [ ] Clicking on a robot navigates the user to `/robots:/id` where `:id` is the id of the clicked robot.
 - [ ] Navigating to `/robots/:id` renders the `BotSpecsPage`
 - [ ] The `BotSpecsPage` renders the robot whose `id` matches the `:id` portion of the URL
