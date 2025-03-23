@@ -1,5 +1,5 @@
 // This component is shown at /robots/${id}
-// TODO: 
+// TODO:
 // 1. pull the id value from the URL
 // 2. make state for fetching the robot (and the error)
 // 3. use the getRobotById adapter in useEffect, re-fetching each time the id changes
@@ -16,13 +16,41 @@
 // 5. if an error occurs, render <CouldNotLoadData /> instead
 // 6. if no robot is found, render <NotFoundPage /> instead
 
-import NotFoundPage from '../pages/NotFoundPage';
-import CouldNotLoadData from './CouldNotLoadData';
-import BotClassIcon from './BotClassIcon';
-import { getRobotById } from '../adapters/robotAdapters';
-import { useState, useEffect } from 'react';
+import NotFoundPage from "../pages/NotFoundPage";
+import CouldNotLoadData from "./CouldNotLoadData";
+import BotClassIcon from "./BotClassIcon";
+import { getRobotById } from "../adapters/robotAdapters";
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 
 const BotSpecs = () => {
+  //get the id from the URL
+  //use params allows you to access dynamic URL parameters, in this case, the id
+  const { id } = useParams();
+
+  //make state for fetching the robot and handling errors
+  const [robot, setRobot] = useState(null);
+  const [error, setError] = useState("");
+
+  //use the getRobotById adapter in useEffect, re-fetching each time the id changes and upon initial render
+  useEffect(() => {
+    const fetchRobot = async () => {
+      const [data, error] = await getRobotById(id);
+      if (data) {
+        setRobot(data);
+      } else {
+        setError(error);
+      }
+    };
+    fetchRobot();
+    //the dependency array is what useEffect uses to determine when to re-run the effect
+    //the id is a dependency of the useEffect hook, it will re-fetch the robot each time the id changes
+  }, [id]);
+
+  //if an error occurs, render <CouldNotLoadData /> instead of the return on line 55
+  if (error) return <CouldNotLoadData />;
+  //if no robot is found, render <NotFoundPage /> instead of line 55
+  if (!robot) return <NotFoundPage />;
 
   return (
     <div className="ui segment">
@@ -30,19 +58,19 @@ const BotSpecs = () => {
         <div className="row">
           <div className="four wide column">
             <img
-              alt="Robot Name"
+              alt={robot.name}
               className="ui medium circular image bordered"
-              src="Robot Avatar"
+              src={robot.avatar_url}
             />
           </div>
           <div className="four wide column">
-            <h2>Name: Robot Name</h2>
+            <h2>Name: {robot.name}</h2>
             <p>
               <strong>Catchphrase: </strong>
-              Robot Catchphrase
+              {robot.catchphrase}
             </p>
             <strong>
-              Class: Assault {BotClassIcon("Assault")}
+              Class: {robot.bot_class} {BotClassIcon(robot.bot_class)}
             </strong>
             <br />
             <div className="ui segment">
@@ -67,7 +95,7 @@ const BotSpecs = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default BotSpecs;

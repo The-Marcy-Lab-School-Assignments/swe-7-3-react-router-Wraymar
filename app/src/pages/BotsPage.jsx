@@ -9,15 +9,15 @@ import Filter from "../components/Filter";
 import { useState } from "react";
 
 const BotPage = () => {
-    const [botTypeFilter, setBotTypeFilter] = useState('');
+  const [botTypeFilter, setBotTypeFilter] = useState("");
 
-    return (
-        <main>
-            <h1>Robot Army:</h1>
-            <Filter setBotTypeFilter={setBotTypeFilter} />
-            <BotsList botTypeFilter={botTypeFilter} />
-        </main>
-    )
-}
+  return (
+    <main>
+      <h1>Robot Army:</h1>
+      <Filter setBotTypeFilter={setBotTypeFilter} />
+      <BotsList botTypeFilter={botTypeFilter} />
+    </main>
+  );
+};
 
-export default BotPage
+export default BotPage;

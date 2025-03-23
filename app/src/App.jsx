@@ -22,8 +22,8 @@ const App = () => {
     <div className="App">
       <Routes>
         <Route path="/" element={<BotPage />} />
-        <Route path="/BotSpecsPage" element={<BotSpecsPage />} />
-        <Route path="/NotFoundPage" element={<NotFoundPage />} />
+        <Route path="/robots/:id" element={<BotSpecsPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>
   );
