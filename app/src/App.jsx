@@ -5,9 +5,14 @@ web application's routing structure.
 */
 
 /* eslint-disable no-unused-vars */
-import BotSpecsPage from './pages/BotSpecsPage'
-import NotFoundPage from './pages/NotFoundPage'
-import BotPage from './pages/BotsPage'
+import BotSpecsPage from "./pages/BotSpecsPage";
+import NotFoundPage from "./pages/NotFoundPage";
+import BotPage from "./pages/BotsPage";
+import {
+  BrowserRouter as Router,
+  Route,
+  BrowserRouter,
+} from "react-router-dom";
 
 // TODO: import Routes and Route
 
@@ -19,9 +24,15 @@ const App = () => {
 
   return (
     <div className="App">
-      <BotPage />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<BotPage />} />
+          <Route path="/BotSpecsPage" element={<BotSpecsPage />} />
+          <Route path="/NotFoundPage" element={<NotFoundPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;
