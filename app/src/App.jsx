@@ -8,13 +8,9 @@ web application's routing structure.
 import BotSpecsPage from "./pages/BotSpecsPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import BotPage from "./pages/BotsPage";
-import {
-  BrowserRouter as Router,
-  Route,
-  BrowserRouter,
-} from "react-router-dom";
 
 // TODO: import Routes and Route
+import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   // TODO: Render Routes with a Route for:
@@ -24,13 +20,11 @@ const App = () => {
 
   return (
     <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<BotPage />} />
-          <Route path="/BotSpecsPage" element={<BotSpecsPage />} />
-          <Route path="/NotFoundPage" element={<NotFoundPage />} />
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path="/" element={<BotPage />} />
+        <Route path="/BotSpecsPage" element={<BotSpecsPage />} />
+        <Route path="/NotFoundPage" element={<NotFoundPage />} />
+      </Routes>
     </div>
   );
 };
