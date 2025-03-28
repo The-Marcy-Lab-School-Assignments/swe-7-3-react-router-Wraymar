@@ -23,6 +23,7 @@ const BotsList = ({ botTypeFilter }) => {
   // a robot passes the filter if:
   // - the robot class matches the filter
   // - there is no filter set
+
   const isInFilter = (robot) =>
     robot.bot_class === botTypeFilter || botTypeFilter === "";
   const robotToBotCard = (robot) => {

@@ -78,15 +78,15 @@ const BotSpecs = () => {
                 <div className="row">
                   <div className="column">
                     <i className="icon large circular red heartbeat" />
-                    <strong>Robot Health</strong>
+                    <strong>{robot.health}</strong>
                   </div>
                   <div className="column">
                     <i className="icon large circular yellow lightning" />
-                    <strong>Robot Damage</strong>
+                    <strong>{robot.damage}</strong>
                   </div>
                   <div className="column">
                     <i className="icon large circular blue shield" />
-                    <strong>Robot Armor</strong>
+                    <strong>{robot.armor}</strong>
                   </div>
                 </div>
               </div>
